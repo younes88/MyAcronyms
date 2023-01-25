@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dateText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:gravity="center"
+        android:textSize="@dimen/_16sdp"
+        tools:text="سه شنبه" />
+
+    <ir.hamsaa.persiandatepicker.PersianDatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:displayMonthNames="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/_4sdp"
+        android:paddingRight="@dimen/_4sdp">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/positive_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/touchable_background"
+            android:padding="@dimen/_6sdp"
+            android:text="ok"
+            android:textSize="12sp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/negative_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_2sdp"
+            android:background="@drawable/touchable_background"
+            android:padding="@dimen/_6sdp"
+            android:visibility="gone"
+            android:text="cancel"
+            android:textSize="@dimen/_12sdp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/today_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/touchable_background"
+            android:padding="@dimen/_6sdp"
+            android:text="today"
+            android:textSize="@dimen/_12sdp"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+    </LinearLayout>
+
+</LinearLayout>

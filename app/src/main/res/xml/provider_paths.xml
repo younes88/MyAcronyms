@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <cache-path
+        name="cache"
+        path="." />
+    <external-cache-path
+        name="external_cache"
+        path="." />
+    <external-files-path
+        name="external_files"
+        path="." />
+    <external-path
+        name="external"
+        path="." />
+    <external-path
+        name="external_download"
+        path="Download" />
+    <files-path
+        name="files"
+        path="." />
+    <files-path
+        name="."
+        path="external_files" />
+</paths>

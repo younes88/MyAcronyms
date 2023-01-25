@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <bool name="landscape">false</bool>
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+
+    <!--Text Size-->
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="Text_Very_Small1">@dimen/_7sdp</dimen>
+    <dimen name="Text_Very_Small">@dimen/_8sdp</dimen>
+    <dimen name="Text_Small">@dimen/_10sdp</dimen>
+    <dimen name="Text_Small1">@dimen/_9sdp</dimen>
+    <dimen name="Text_Medium">@dimen/_12sdp</dimen>
+    <dimen name="Text_Normal">@dimen/_13sdp</dimen>
+    <dimen name="Text_Normal1">@dimen/_14sdp</dimen>
+    <dimen name="Text_Large">@dimen/_16sdp</dimen>
+    <dimen name="Text_Large1">@dimen/_18sdp</dimen>
+    <dimen name="Text_Big_Large">@dimen/_20sdp</dimen>
+    <dimen name="Text_Big_Large1">@dimen/_24sdp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="underline_top_spacing">@dimen/_4sdp</dimen>
+    <dimen name="underline_bottom_spacing">@dimen/_2sdp</dimen>
+
+    <dimen name="error_label_spacing">@dimen/_10sdp</dimen>
+    <dimen name="floating_label_top_spacing">@dimen/_1sdp</dimen>
+    <dimen name="floating_label_bottom_spacing">@dimen/_5sdp</dimen>
+
+    <dimen name="floating_label_inside_spacing">@dimen/_10sdp</dimen>
+
+    <dimen name="right_left_spinner_padding">@dimen/_2sdp</dimen>
+
+    <dimen name="label_text_size">@dimen/_10sdp</dimen>
+
+
+    <dimen name="min_content_height">@dimen/_22sdp</dimen>
+    <dimen name="stpi_default_circle_radius">@dimen/_10sdp</dimen>
+    <dimen name="stpi_default_circle_stroke_width">@dimen/_4sdp</dimen>
+    <dimen name="stpi_default_indicator_radius">@dimen/_4sdp</dimen>
+    <dimen name="stpi_default_line_stroke_width">@dimen/_2sdp</dimen>
+
+    <dimen name="stpi_default_line_margin">@dimen/_5sdp</dimen>
+
+    <dimen name="stpi_default_text_size">@dimen/Text_Normal</dimen>
+    <dimen name="stpi_default_bottom_indicator_height">@dimen/_3sdp</dimen>
+    <dimen name="stpi_default_bottom_indicator_width">@dimen/_50sdp</dimen>
+
+    <dimen name="stpi_default_bottom_indicator_margin_top">@dimen/_10sdp</dimen>
+    <dimen name="stpi_default_label_size">@dimen/Text_Normal</dimen>
+
+    <dimen name="stpi_default_label_margin_top">@dimen/_2sdp</dimen>
+    <dimen name="stpi_two_dp">@dimen/_2sdp</dimen>
+
+    <dimen name="stpi_done_icon_size">@dimen/_18sdp</dimen>
+    <dimen name="video_frame_width">@dimen/_2sdp</dimen>
+
+    <dimen name="previewseekbar_indicator_width">16dp</dimen>
+    <dimen name="previewseekbar_thumb_offset">10dp</dimen>
+</resources>

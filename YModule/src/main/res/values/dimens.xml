@@ -1,0 +1,79 @@
+<resources>
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!--##########################-->
+
+    <!--for DrawableArrowDrawable-->
+    <dimen name="ldrawer_drawableSize">50dp</dimen>
+    <dimen name="ldrawer_barSize">18dp</dimen>
+    <dimen name="ldrawer_topBottomBarArrowSize">11dp</dimen>
+    <dimen name="ldrawer_thickness">2dp</dimen>
+    <dimen name="ldrawer_gapBetweenBars">3dp</dimen>
+    <dimen name="ldrawer_middleBarArrowSize">16dp</dimen>
+
+    <!--++++for Notification Custom Layouts-->
+    <dimen name="ntf_title_height">25dp</dimen>
+    <dimen name="ntf_title_height_large">40dp</dimen>
+    <dimen name="ntf_image_height">55dp</dimen>
+    <dimen name="ntf_image_height_large">100dp</dimen>
+    <dimen name="ntf_image_width">82dp</dimen>
+    <dimen name="ntf_image_width_large">150dp</dimen>
+    <dimen name="ntf_sub_title_height">30dp</dimen>
+    <dimen name="ntf_sub_title_height_large">144dp</dimen>
+
+    <dimen name="action_button_size">@dimen/_66sdp</dimen>
+    <item name="mdtp_circle_radius_multiplier" format="float" type="string">0.82</item>
+    <item name="mdtp_circle_radius_multiplier_24HourMode" format="float" type="string">0.85</item>
+    <item name="mdtp_selection_radius_multiplier" format="float" type="string">0.16</item>
+    <item name="mdtp_ampm_circle_radius_multiplier" format="float" type="string">0.22</item>
+    <item name="mdtp_numbers_radius_multiplier_normal" format="float" type="string">0.81</item>
+    <item name="mdtp_numbers_radius_multiplier_inner" format="float" type="string">0.60</item>
+    <item name="mdtp_numbers_radius_multiplier_outer" format="float" type="string">0.83</item>
+    <item name="mdtp_text_size_multiplier_normal" format="float" type="string">0.12</item>
+    <item name="mdtp_text_size_multiplier_inner" format="float" type="string">0.11</item>
+    <item name="mdtp_text_size_multiplier_outer" format="float" type="string">0.08</item>
+
+    <dimen name="mdtp_time_label_size">@dimen/_40sdp</dimen>
+    <dimen name="mdtp_extra_time_label_margin">@dimen/_minus3sdp</dimen>
+    <dimen name="mdtp_ampm_label_size">@dimen/_16sdp</dimen>
+    <dimen name="mdtp_done_label_size">@dimen/_14sdp</dimen>
+    <dimen name="mdtp_ampm_left_padding">@dimen/_6sdp</dimen>
+    <dimen name="mdtp_separator_padding">@dimen/_4sdp</dimen>
+    <dimen name="mdtp_header_height">@dimen/_76sdp</dimen>
+    <dimen name="mdtp_footer_height">@dimen/_68sdp</dimen>
+    <dimen name="mdtp_minimum_margin_sides">@dimen/_28sdp</dimen>
+    <dimen name="mdtp_minimum_margin_top_bottom">@dimen/_14sdp</dimen>
+    <dimen name="mdtp_picker_dimen">@dimen/_200sdp</dimen>
+    <dimen name="mdtp_time_picker_height">@dimen/_180sdp</dimen>
+
+    <dimen name="mdtp_date_picker_component_width">@dimen/_200sdp</dimen>
+    <dimen name="mdtp_date_picker_component_width1">@dimen/_210sdp</dimen>
+    <dimen name="mdtp_date_picker_header_height">@dimen/_30sdp</dimen>
+    <dimen name="mdtp_selected_calendar_layout_height">@dimen/_95sdp</dimen>
+    <dimen name="mdtp_selected_date_height">@dimen/_190sdp</dimen>
+    <dimen name="mdtp_date_picker_view_animator_height">@dimen/_202sdp</dimen>
+    <dimen name="mdtp_done_button_height">@dimen/_42sdp</dimen>
+
+    <dimen name="mdtp_month_list_item_header_height">@dimen/_36sdp</dimen>
+    <dimen name="mdtp_month_day_label_text_size">@dimen/_12sdp</dimen>
+    <dimen name="mdtp_day_number_select_circle_radius">@dimen/_16sdp</dimen>
+    <dimen name="mdtp_month_select_circle_radius">@dimen/_25sdp</dimen>
+    <dimen name="mdtp_selected_date_year_size">@dimen/_15sdp</dimen>
+    <dimen name="mdtp_selected_date_day_size">@dimen/_25sdp</dimen>
+    <dimen name="mdtp_selected_date_month_size">@dimen/_15sdp</dimen>
+    <dimen name="mdtp_date_picker_header_text_size">@dimen/_12sdp</dimen>
+    <dimen name="mdtp_time_picker_header_text_size">@dimen/_12sdp</dimen>
+    <dimen name="mdtp_month_label_size">@dimen/_14sdp</dimen>
+    <dimen name="mdtp_day_number_size">@dimen/_12sdp</dimen>
+    <dimen name="mdtp_year_label_height">@dimen/_64sdp</dimen>
+    <dimen name="mdtp_year_label_text_size">@dimen/_22sdp</dimen>
+
+    <dimen name="mdtp_material_button_height">@dimen/_38sdp</dimen>
+    <dimen name="mdtp_material_button_textsize">@dimen/_12sdp</dimen>
+    <dimen name="mdtp_material_button_minwidth">@dimen/_34sdp</dimen>
+    <dimen name="mdtp_material_button_textpadding_horizontal">@dimen/_2sdp</dimen>
+
+</resources>

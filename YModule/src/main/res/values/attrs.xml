@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ProgressWheel">
+        <attr name="matProg_progressIndeterminate" format="boolean" />
+        <attr name="matProg_barColor" format="color" />
+        <attr name="matProg_rimColor" format="color" />
+        <attr name="matProg_rimWidth" format="dimension" />
+        <attr name="matProg_spinSpeed" format="float" />
+        <attr name="matProg_barSpinCycleTime" format="integer" />
+        <attr name="matProg_circleRadius" format="dimension" />
+        <attr name="matProg_fillRadius" format="boolean" />
+        <attr name="matProg_barWidth" format="dimension" />
+        <attr name="matProg_linearProgress" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="LabelView">
+        <attr name="lv_text" format="string" />
+        <attr name="lv_text_color" format="color" />
+        <attr name="lv_text_size" format="dimension" />
+        <attr name="lv_text_bold" format="boolean" />
+        <attr name="lv_text_all_caps" format="boolean" />
+        <attr name="lv_background_color" format="color" />
+        <attr name="lv_min_size" format="dimension" />
+        <attr name="lv_padding" format="dimension" />
+        <attr name="lv_gravity" format="enum">
+            <enum name="TOP_LEFT" value="51" />
+            <enum name="TOP_RIGHT" value="53" />
+            <enum name="BOTTOM_LEFT" value="83" />
+            <enum name="BOTTOM_RIGHT" value="85" />
+        </attr>
+        <attr name="lv_fill_triangle" format="boolean" />
+
+    </declare-styleable>
+
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="TintableImageView">
+        <attr name="tint1" format="color|reference" />
+    </declare-styleable>
+    <declare-styleable name="AnimatedCircleLoadingView">
+        <attr name="animCircleLoadingView_mainColor" format="color" localization="suggested" />
+        <attr name="animCircleLoadingView_secondaryColor" format="color" localization="suggested" />
+        <attr name="animCircleLoadingView_checkMarkTintColor" format="color" localization="suggested" />
+        <attr name="animCircleLoadingView_failureMarkTintColor" format="color" localization="suggested" />
+        <attr name="animCircleLoadingView_textColor" format="color" localization="suggested" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="name" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="SwitchButton">
+        <attr name="sb_shadow_radius" format="reference|dimension" />
+        <attr name="sb_shadow_offset" format="reference|dimension" />
+        <attr name="sb_shadow_color" format="reference|color" />
+        <attr name="sb_uncheck_color" format="reference|color" />
+        <attr name="sb_checked_color" format="reference|color" />
+
+        <attr name="sb_border_width" format="reference|dimension" />
+        <attr name="sb_checkline_color" format="reference|color" />
+        <attr name="sb_checkline_width" format="reference|dimension" />
+        <attr name="sb_uncheckcircle_color" format="reference|color" />
+        <attr name="sb_uncheckcircle_width" format="reference|dimension" />
+        <attr name="sb_uncheckcircle_radius" format="reference|dimension" />
+
+        <attr name="sb_checked" format="reference|boolean" />
+        <attr name="sb_shadow_effect" format="reference|boolean" />
+        <attr name="sb_effect_duration" format="reference|integer" />
+        <attr name="sb_button_color" format="reference|color" />
+        <attr name="sb_show_indicator" format="reference|boolean" />
+        <attr name="sb_background" format="reference|color" />
+        <attr name="sb_enable_effect" format="reference|boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="PersianDatePicker">
+        <attr name="minYear" format="integer" />
+        <attr name="maxYear" format="integer" />
+        <attr name="selectedYear" format="integer" />
+        <attr name="selectedMonth" format="integer" />
+        <attr name="selectedDay" format="integer" />
+        <attr name="displayMonthNames" format="boolean" />
+        <attr name="yearRange" format="integer" />
+        <attr name="displayDescription" format="boolean" />
+    </declare-styleable>
+
+</resources>

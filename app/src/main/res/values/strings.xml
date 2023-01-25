@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Acronyms</string>
+    <string name="lblSearch">Search</string>
+</resources>

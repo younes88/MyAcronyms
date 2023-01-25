@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lblNoReshape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:minHeight="50dp"
+        android:text="no reshape"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"
+        android:textColorHint="#ffffff"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/lblReshape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:minHeight="50dp"
+        android:text="reshape"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/lblReshapeReverse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:minHeight="50dp"
+        android:text="reshape reverese"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+</LinearLayout>

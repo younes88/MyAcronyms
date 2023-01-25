@@ -1,0 +1,103 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BaseModule</string>
+
+    <string name="ok">OK</string>
+    <string name="confirm">Confirm</string>
+    <string name="yes">YES</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="retry">Retry</string>
+    <string name="ignore">Ignore</string>
+    <string name="PleaseWait">Please Wait …</string>
+    <string name="ConnectingToServer">Communicating with the server…</string>
+    <string name="enter_req_data">Please enter the required information</string>
+    <string name="enter_req_download">There is no information to display</string>
+    <string name="no_internet">Waiting for an internet connection…</string>
+    <string name="error_connecting_to_server">Error connecting to the Api</string>
+    <string name="server_process_error">Error in information processing by the Api</string>
+    <string name="Press_Back_Again_For_Exit">Press the return key again to exit</string>
+    <string name="reshape_msg">I see this message correctly</string>
+    <string name="error">Error!</string>
+    <string name="server_msg">message server</string>
+    <string name="error_server_process">Error in information processing by the api</string>
+
+    <string name="pull_to_refresh_pull_label" >Swipe down to update content…</string>
+    <string name="pull_to_refresh_release_label">Leave it to update</string>
+    <string name="pull_to_refresh_refreshing_label" >Loading…</string>
+    <string name="pull_to_refresh_tap_label">Click to update</string>
+
+    <string name="downloading_please_wait">Downloading, please wait…</string>
+    <string name="download_completed">The download was done successfully</string>
+    <string name="error_download_file">Error downloading the file</string>
+    <string name="download_canceled">Download stopped</string>
+    <string name="error_stopping_download">Error stopping the download</string>
+    <string name="unknown">unknown</string>
+    <string name="file_already_exists">The file has already been downloaded</string>
+    <string name="megabytes">megabytes</string>
+    <string name="this_field_must_not_empty">This field should not be empty</string>
+    <string name="mobile_no_without_zero">Mobile number must be entered without 0</string>
+    <string name="invalid_phone_number">The number entered is not correct</string>
+    <string name="invalid_email_address">The email entered is not valid</string>
+    <string name="invalid_website_address">The entered address is not correct</string>
+    <string name="invalid_national_code">The entered national code is not correct</string>
+    <string name="edit">Edit</string>
+    <string name="tel_code_must_be_more_than_3">The phone code cannot be less than 3 digits</string>
+
+
+    <!-- Label for button to confirm chosen date or time [CHAR LIMIT=30] -->
+    <string name="mdtp_done_label" msgid="7007948707597430919">Done</string>
+    <string name="mdtp_ok">OK</string>
+    <string name="mdtp_cancel">Cancel</string>
+    <!--
+         Content description for the hour selector in the time picker, which displays
+         selectable hours of the day along the inside edge of a circle, as in an analog clock.
+         [CHAR LIMIT=50]
+    -->
+    <string name="mdtp_hour_picker_description" msgid="7586639618712934060">Clock circular slider</string>
+    <!--
+         Content description for the minute selector in the time picker, which displays
+         selectable five-minute intervals along the inside edge of a circle, as in an analog clock.
+         [CHAR LIMIT=50]
+    -->
+    <string name="mdtp_minute_picker_description" msgid="6024811202872705251">Circular minute slider</string>
+    <!-- Accessibility announcement for hour circular picker [CHAR LIMIT=NONE] -->
+    <string name="mdtp_select_hours" msgid="7651068754188418859">Choose an hour</string>
+    <!-- Accessibility announcement for minute circular picker [CHAR LIMIT=NONE] -->
+    <string name="mdtp_select_minutes" msgid="8327182090226828481">Select minutes</string>
+
+    <!--
+        Content description for the month and day selector in the date picker, which displays
+        a selectable grid of days laid out by month.
+        [CHAR LIMIT=50]
+     -->
+    <string name="mdtp_day_picker_description">Month grid of days</string>
+    <!--
+        Content description for the year selector in the date picker, which displays
+        a scrolling, vertical list of years.
+        [CHAR LIMIT=50]
+     -->
+    <string name="mdtp_year_picker_description">Year list</string>
+    <!-- Accessibility announcement for the day picker [CHAR LIMIT=NONE] -->
+    <string name="mdtp_select_day">Select month and day</string>
+    <!-- Accessibility announcement for the year picker [CHAR LIMIT=NONE] -->
+    <string name="mdtp_select_year">Select year</string>
+    <!-- Accessibility description for the item that is currently selected. -->
+    <string name="mdtp_item_is_selected" msgid="2674929164900463786">"<xliff:g id="ITEM">%1$s</xliff:g>Selected</string>
+    <!-- Accessibility announcement when a number that had been typed in is deleted [CHAR_LIMIT=NONE] -->
+    <string name="mdtp_deleted_key" msgid="6908431551612331381">"<xliff:g id="KEY">%1$s</xliff:g>Deleted</string>
+
+    <!-- DO NOT TRANSLATE -->
+    <string name="mdtp_time_placeholder" translatable="false">--</string>
+    <!-- DO NOT TRANSLATE -->
+    <string name="mdtp_time_separator" translatable="false">:</string>
+
+    <!-- DO NOT TRANSLATE -->
+    <string name="mdtp_radial_numbers_typeface" translatable="false">sans-serif</string>
+    <!-- DO NOT TRANSLATE -->
+    <string name="mdtp_sans_serif" translatable="false">sans-serif</string>
+
+    <!-- DO NOT TRANSLATE -->
+    <string name="mdtp_day_of_week_label_typeface" translatable="false">sans-serif</string>
+    <string name="am_label">AM</string>
+    <string name="pm_label">PM</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:background="#2b2828"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/imgvNTFImage"
+        android:layout_width="@dimen/ntf_image_width"
+        android:layout_height="@dimen/ntf_image_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ntf_round_imageview_bg"
+        android:padding="1dp"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:id="@+id/imgvNTFTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/ntf_title_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="3dp"
+        android:layout_toEndOf="@+id/imgvNTFImage"
+        android:layout_toRightOf="@+id/imgvNTFImage"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:id="@+id/imgvNTFSubTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/ntf_sub_title_height"
+        android:layout_alignEnd="@+id/imgvNTFTitle"
+        android:layout_alignRight="@+id/imgvNTFTitle"
+        android:layout_below="@+id/imgvNTFTitle"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="2dp"
+        android:layout_toEndOf="@+id/imgvNTFImage"
+        android:layout_toRightOf="@+id/imgvNTFImage"
+        android:scaleType="fitXY" />
+</RelativeLayout>
